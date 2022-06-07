@@ -1,73 +1,87 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=0.85">
-    <link rel="stylesheet" href="style.css" type="text/css"/>
-    <title>SportView - Shop</title>
-</head>
-<body>
-    
-    <div class="left_bar">
-        <div class="left_bar_word"><span style="color:#c9a507">Каталог</span> одежды для занятия спортом !</div>
-        <a href="cataloge.html" class="button">Перейти</a>
-        <div class="left_bar_word2">Одежда в данном магазине предназначена только для весеннего и летнего сезона. По вопросам ассортимента товара и отзывам писать на почту разработчика.</div>
-        <div style="width: auto;margin: 150px auto 0 auto;text-align: center;">
-            <a href="" class="mail"></a>
-            <a href="" class="inst"></a>
-            <a href="" class="vk"></a>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="left-side">
+          <div class="address details">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="topic">Адрес</div>
+            <div class="text-one">г. Москва</div>
+            <div class="text-two">Пресненская наб., 8 стр. 1</div>
+          </div>
+          <div class="phone details">
+            <i class="fas fa-phone-alt"></i>
+            <div class="topic">Телефон</div>
+            <div class="text-one">8-800-000-00-00</div>
+            <div class="text-two">8-900-000-00-00</div>
+          </div>
+          <div class="email details">
+            <i class="fas fa-envelope"></i>
+            <div class="topic">Email</div>
+            <div class="text-one">support@site.com</div>
+            <div class="text-two">admin@site.com</div>
+          </div>
         </div>
-    </div>
-    <div class="right_bar">
-        <div class="header">
-            <a class="linker" href="#target_banner">Каталог</a>
-            <a class="linker" href="">Контакты</a>
-            <a class="linker" href="#target_about_us">О нас</a>
-            <div class="logotype">Sport<span style="color:#c9a507;font-family: Montserrat-Bold;">View</span> Shop</div>
+        <div class="right-side">
+          <div class="topic-text">Отправьте нам сообщение</div>
+          <p>
+            Если у вас есть какие-то вопросы или предложения по сотрудничеству -
+            заполните форму ниже
+          </p>
+          <form action="send_mail.php" name="form" method="POST">
+            <div class="input-box">
+              <input
+                type="text"
+                placeholder="Ваше имя"
+                name="name"
+                id="name"
+                data-reg="^[А-ЯЁ][а-яё]*$"
+              />
+              <label for="name">Только русские буквы</label>
+            </div>
+            <div class="input-box">
+              <input
+                type="text"
+                placeholder="Введите email"
+                name="email"
+                id="email"
+                data-reg="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$"
+              />
+              <label for="email">В формате: your-name@email.com</label>
+            </div>
+            <div class="input-box">
+              <input
+                type="text"
+                placeholder="Введите телефон"
+                name="phone"
+                id="phone"
+                data-reg="^((\+7|7|8)+([0-9]){10})$"
+              />
+              <label for="phone">В формате: 88000000000 или 78000000000</label>
+            </div>
+            <div class="input-box message-box">
+              <textarea placeholder="Сообщение" name="message"></textarea>
+            </div>
+            <div class="button">
+              <input type="submit" id="button" value="Отправить" />
+            </div>
+          </form>
         </div>
+      </div>
     </div>
-    <div class="magazine">
-        <div class="magazine_2">
-            <span class="anim1">
-            <span class="anim2">К</span>
-            <span class="anim2">а</span>
-            <span class="anim2">т</span>
-            <span class="anim2">а</span>
-            <span class="anim2">л</span>
-            <span class="anim2">о</span>
-            <span class="anim2">г</span>
-            </span> <span class="anim3">лучших товаров</span>
-        
-        </div>
-
-    </div>
-    <div class="left_cataloge">
-        <div id="target_banner" class="left_cataloge_banner"><span class="anim4">Лучшая</span> одежда</div>
-    </div>
-    <div class="right_cataloge">
-        <div class="right_cataloge_banner"><span class="anim5">Лучшая</span> обувь</div>
-    </div>
-
-    <div class="about_us">
-        <div id="target_about_us" class="info_about_us">Информация о нас</div>
-        <div style="margin: 30px auto 0 auto;color:aliceblue; font-size: 26px;width:75%;font-family: Montserrat-Light;"><span style="font-size: 36px;background-color:black;padding:5px;">SportView Shop</span> - интернет-магазин спортивной одежды. Здесь вы можете приобрести качественную одежду для различных видов занятия спортом. Если вам уже не терпится посмотреть каталог и заказать что-нибудь себе, например, для бега или плавания, тогда переходите в каталог товара, нажав кнопку в начале страницы.</div>
-        <div class="quality">
-            <div class="quality_img1"></div>
-            <div class="quality_text"><span style="color: #c9a507;">Одежда</span> только из качественного материала</div>
-        </div>
-        <div class="quality">
-            <div class="quality_img2"></div>
-            <div class="quality_text">Быстрая <span style="color: #c9a507;">доставка</span> в любую точку мира</div>
-        </div>
-        <div class="quality">
-            <div class="quality_img3"></div>
-            <div class="quality_text">Разнообразный <span style="color: #c9a507;">каталог</span> товара и удобный интерфейс магазина</div>
-        </div>
-        <div style="font-size:32px; width:60%;margin:50px auto 50px auto;font-family: Montserrat-Bold;color:aliceblue;text-align: left;background-color: rgb(0, 0, 0);padding: 10px;">Успехов в выборе и держите себя в форме !</div>
-    </div>
-    <footer class="footer">
-        <div style="font-size:32px;color:aliceblue;font-family: Montserrat-Regular;text-align: center; float:none; margin:20px auto 20px auto;width:180px;">Sport<span style="color:#c9a507">View</span> Shop</div>
-    </footer>
-</body>
+    <script
+      src="https://kit.fontawesome.com/fce9a50d02.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
 </html>
