@@ -1,0 +1,174 @@
+#full_bar_1 {
+    position: fixed;
+    left: 20%;
+    width: 60%;
+    height: auto;
+    background-color: #292824;
+    display: none;
+    border-radius: 10px;
+}
+#full_bar_button_1 {
+    margin: 15px;
+    display: block;
+    float: left;
+    background-image: url(img/closeButton.svg);
+    background-size: cover;
+    width: 22px;
+    height: 22px;
+}
+.photo_full_bar_1 {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin: 15px auto 0 auto;
+    
+}
+.name_full_bar {
+    font-family: Montserrat-Bold;
+    font-size: 32px;
+    width: 80%;
+    color: aliceblue;
+    margin: 5px auto 0 auto;
+}
+.name2_full_bar {
+    font-family: Montserrat-Regular;
+    font-size: 24px;
+    width: 80%;
+    color: aliceblue;
+    margin: 10px auto 0 auto;
+}
+.buy_full_bar {
+    padding: 15px;
+    float: right;
+    margin: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 120px;
+    background:linear-gradient(#c9a507, #c9a507) 0% 100% no-repeat;
+    transition:background 650ms ease 0s;
+    background-size:100% 100%;
+    color: aliceblue;
+    font-family: Montserrat-Bold;
+    font-size: 24px;
+}
+.buy_full_bar:hover {
+    background-size: 100% 0;
+    background-color: #000000;
+}
+
+
+
+#full_bar_2 {
+    position: fixed;left: 20%; width: 60%; height: auto; background-color: #292824; display: none; border-radius: 10px;
+}
+#full_bar_button_2 {
+    margin: 15px; display: block; float: left; background-image: url(img/closeButton.svg); background-size: cover; width: 22px; height: 22px;
+}
+.photo_full_bar_2 {
+    width: 250px; height: 250px; border-radius: 10px; background-color: aliceblue; margin: 15px auto 0 auto; 
+}
+
+
+
+#full_bar_3 {
+    position: fixed;left: 20%; width: 60%; height: auto; background-color: #292824; display: none; border-radius: 10px;
+}
+#full_bar_button_3 {
+    margin: 15px; display: block; float: left; background-image: url(img/closeButton.svg); background-size: cover; width: 22px; height: 22px;
+}
+.photo_full_bar_3 {
+    width: 250px; height: 250px; border-radius: 10px; background-color: aliceblue; margin: 15px auto 0 auto; 
+}
+
+
+
+#full_bar_4 {
+    position: fixed;left: 20%; width: 60%; height: auto; background-color: #292824; display: none; border-radius: 10px;
+}
+#full_bar_button_4 {
+    margin: 15px; display: block; float: left; background-image: url(img/closeButton.svg); background-size: cover; width: 22px; height: 22px;
+}
+.photo_full_bar_4 {
+    width: 250px; height: 250px; border-radius: 10px; background-color: aliceblue; margin: 15px auto 0 auto; 
+}
+
+
+
+#full_bar_5 {
+    position: fixed;left: 20%; width: 60%; height: auto; background-color: #292824; display: none; border-radius: 10px;
+}
+#full_bar_button_5 {
+    margin: 15px; display: block; float: left; background-image: url(img/closeButton.svg); background-size: cover; width: 22px; height: 22px;
+}
+.photo_full_bar_5 {
+    width: 250px; height: 250px; border-radius: 10px; background-color: aliceblue; margin: 15px auto 0 auto; 
+}
+
+
+
+#full_bar_6 {
+    position: fixed;left: 20%; width: 60%; height: auto; background-color: #292824; display: none; border-radius: 10px;
+}
+#full_bar_button_6 {
+    margin: 15px; display: block; float: left; background-image: url(img/closeButton.svg); background-size: cover; width: 22px; height: 22px;
+}
+.photo_full_bar_6 {
+    width: 250px; height: 250px; border-radius: 10px; background-color: aliceblue; margin: 15px auto 0 auto; 
+}
+@media(max-width:1150px) {
+    #full_bar_1 {
+        top: 5%; left: 5%; width: 90%; height: auto;
+    }
+    #full_bar_2 {
+        top: 5%;  left: 5%;  width: 90%;  height: auto;
+    }
+    #full_bar_3 {
+        top: 5%;  left: 5%;  width: 90%;  height: auto;
+    }
+    #full_bar_4 {
+        top: 5%;  left: 5%;  width: 90%;  height: auto;
+    }
+    #full_bar_5 {
+        top: 5%;  left: 5%;  width: 90%;  height: auto;
+    }
+    #full_bar_6 {
+        top: 5%;  left: 5%;  width: 90%;  height: auto;
+    }
+}
+@media (max-width:740px) {
+    .name_full_bar_1 {
+        font-size: 20px;
+    }
+    .name2_full_bar_1 {
+        font-size: 18px;
+    }
+    .photo_full_bar_1 {
+        width: 200px;
+        height: 200px;
+    }
+    .photo_full_bar_2 {
+        width: 200px;
+        height: 200px;
+    }
+    .photo_full_bar_3 {
+        width: 200px;
+        height: 200px;
+    }
+    .photo_full_bar_4 {
+        width: 200px;
+        height: 200px;
+    }
+    .photo_full_bar_5 {
+        width: 200px;
+        height: 200px;
+    }
+    .photo_full_bar_6 {
+        width: 200px;
+        height: 200px;
+    }
+    .buy_full_bar {
+        font-size: 20px;
+        width: 100px;
+    }
+}
