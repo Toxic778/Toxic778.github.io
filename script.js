@@ -1,9 +1,12 @@
 var birthday = prompt(`Напишите день рождения`)
-if (birthday >= 16 && birthday < 31) {
+if (birthday > 16 && birthday < 31) {
     alert(`Ваш день рождения ${birthday}, вторая половина месяца`)
 }
-else if (birthday >= 1 && birthday < 16) {
+else if (birthday >= 1 && birthday < 15) {
     alert(`Ваш день рождения ${birthday}, первая половина месяца`)
+}
+else if (birthday >= 15 && birthday <= 16) {
+    alert(`Ваш день рождения ${birthday}, середина месяца`)
 }
 else {
     alert(`error`)
